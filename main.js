@@ -1,5 +1,19 @@
-let num1 = 10;
-let num2 = 11;
-console.log(num1 * num2);
+let button_1 = document.getElementById("btn1");
+let button_2 = document.getElementById("btn2");
+let button_3 = document.getElementById("btn3");
+let button_4 = document.getElementById("btn4");
+let button_5 = document.getElementById("btn5");
+let button_6 = document.getElementById("btn6");
+let button_7 = document.getElementById("btn7");
+let button_8 = document.getElementById("btn8");
+let button_9 = document.getElementById("btn9");
 
-console.log(num1 + num2);
+button_1.onclick = firstButtonFuncion();
+button_2.onclick = secondButtonFuncion();
+button_3.onclick = thirdButtonFuncion();
+button_4.onclick = fourthButtonFuncion();
+button_5.onclick = fifthButtonFuncion();
+button_6.onclick = sixthButtonFuncion();
+button_7.onclick = seventhButtonFuncion();
+button_8.onclick = eighthButtonFuncion();
+button_9.onclick = ninethButtonFuncion();
