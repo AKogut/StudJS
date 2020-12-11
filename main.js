@@ -8,6 +8,11 @@ let button_7 = document.getElementById("btn7");
 let button_8 = document.getElementById("btn8");
 let button_9 = document.getElementById("btn9");
 
+let beginGameBtn1 = document.getElementById("beginGameBtn1");
+let XGameBtn1 = document.getElementById("XGameBtn1");
+let OGameBtn1 = document.getElementById("OGameBtn1");
+
+
 button_1.addEventListener("click", firstButtonFuncion);
 button_2.addEventListener("click", secondButtonFuncion);
 button_3.addEventListener("click", thirdButtonFuncion);
@@ -20,7 +25,8 @@ button_9.addEventListener("click", ninethButtonFuncion);
 
 
 function firstButtonFuncion() {
-    console.log("1");
+    beginGameBtn1.setAttribute("style", "display:none");
+    XGameBtn1.setAttribute("style", "display:block");
 }
 
 function secondButtonFuncion() {
